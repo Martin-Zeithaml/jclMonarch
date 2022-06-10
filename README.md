@@ -7,6 +7,12 @@ Change the variable ```jclIn``` to the JCL you want to test, ideally with no lin
 3. Lines end with two spaces
 4. Lines end with line number
 
+## Fixed/updated
+* Missing keywords (job sets and groups)
+* Added/modified some line endings
+* Logging
+* Long label (partially)
+
 ## Debugging
 To see how the syntax is processed, use the dev console. The output is ```[state] <token> -> "next rule" 'regex match'```:
 ```
